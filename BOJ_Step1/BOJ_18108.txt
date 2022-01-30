@@ -1,0 +1,4 @@
+let old_year = Int(readLine()!)!
+print(old_year - 543)
+
+

@@ -1,0 +1,9 @@
+var first = Int(readLine()!)!
+var second = Int(readLine()!)!
+
+var temp = second
+while temp != 0 {
+    print(first*(temp%10))
+    temp /= 10
+}
+print(first * second)
